@@ -5,17 +5,10 @@
  */
 package snexperiment;
 
-import java.util.ArrayList;
-
 /**
  *
- * @author Dmitry
+ * @author test2020
  */
-public class SocialNet {
+public class OPromouter extends Organization implements Promoter{
     
-    ArrayList<User> AllUsers;
-    
-    public void registrate(User user){
-        AllUsers.add(user);
-    }
 }

@@ -5,17 +5,13 @@
  */
 package snexperiment;
 
-import java.util.ArrayList;
-
 /**
  *
- * @author Dmitry
+ * @author test2020
  */
-public class SocialNet {
+public interface UserFabricInterface {
     
-    ArrayList<User> AllUsers;
+
+    public User create(int motiv);
     
-    public void registrate(User user){
-        AllUsers.add(user);
-    }
 }
